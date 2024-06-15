@@ -1,0 +1,69 @@
+body{
+    background-color: #000;
+    color: white;
+}
+.container{
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+#search_movie{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgba(128, 128, 128, 0.575);
+    color: white;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+}
+#search_movie:focus{
+    border: none;
+    outline: none;
+}
+.btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgba(128, 128, 128, 0.747);
+    color: white;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#mvc{
+    display:none;
+}
+.movieContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+.details{
+    text-align: left;
+    font-size: 16px;
+    width: 400px;
+    box-sizing: border-box;
+}
+.loader {
+    display: none;
+    margin-top: 80px;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin .5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

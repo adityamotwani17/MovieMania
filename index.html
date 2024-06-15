@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Mania</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="margin: 10px;">Welcome to Movie Mania !</h1>
+        <p>Get details of any movie anytime anywhere</p>
+        <div class="search">
+            <input type="text" id="search_movie" placeholder="Find Any Movie">
+            <button class="btn" onclick="searchMovie()">Search</button>
+        </div>
+        <div class="loader" id="loader"></div> 
+        <div class="movieContainer" id="mvc">
+            <div class="details">
+                <p>Title: <span id="title">RRR</span></p>
+                <p>Release Date: <span id="release">RRR</span></p>
+                <p>Genre: <span id="genre">RRR</span></p>
+                <p>Director: <span id="director">RRR</span></p>
+                <p>Writers: <span id="writer">RRR</span></p>
+                <p>Actors: <span id="actor">RRR</span></p>
+                <p>Awards: <span id="award">RRR</span></p>
+                <p>IMDB Rating: <span id="rating">RRR</span></p>
+                <p>Synopsis: <span id="desc">RRR</span></p>
+            </div>
+            <div class="poster">
+                <img src="https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg" alt="poster" id="poster">
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
